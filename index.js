@@ -9,7 +9,7 @@ router.get('/',(req,res)=>{
     res.setHeader('Access-Control-Allow-Credentials', true);
 
     res.send({
-        response:"Ishi socket server is up and running"
+        response:"Ishi socket2 server is up and running"
     }).status(200)
 })
 
